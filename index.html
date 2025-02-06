@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-In/Sign-Up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/da91533322.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-in">
+            <div class="form-head">Sign in</div>
+            
+            <div class="form-social">
+                <i class="fa-brands fa-meta"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            
+            <div class="form-text">or use your account</div>
+            
+            <form class="form-input">
+                <input type="email" name="email-sign-in" id="email-sign-in" placeholder="Email">
+                <input type="password" name="password-sign-in" id="password-sign-in" placeholder="Password">
+            </form>
+            
+            <a href="#" class="form-text">Forgot your password</a>
+            
+            <a href="#" class="form-btn">SIGN IN</a>
+        </div>
+            
+        <div class="form-container sign-up">
+            <div class="form-head">Create Account</div>
+            
+            <div class="form-social">
+                    <i class="fa-brands fa-meta"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            
+            <div class="form-text">or use your email for registration</div>
+            
+            <div class="form-input">
+                <input type="text" name="name-sign-up" id="name-sign-up" placeholder="Name">
+                <input type="email" name="email-sign-up" id="email-sign-up" placeholder="Email">
+                <input type="password" name="password-sign-up" id="password-sign-up" placeholder="Password">
+            </div>
+            
+            <a href="#" class="form-btn">SIGN UP</a>
+        </div>
+
+        <div class="overlay-container">
+            <div class="overlay">
+                <div id="left-overlay">
+                    <div class="overlay-head">Welcome Back</div>
+
+                    <div class="overlay-text">To keep connected with us please login with your personal info</div>
+
+                    <a href="#" class="overlay-btn" id="sign-in">SIGN IN</a>
+                </div>
+
+                <div id="right-overlay">
+                    <div class="overlay-head">Hello, Friend!</div>
+
+                    <div class="overlay-text">Enter your personal details and start journey with us</div>
+
+                    <a href="#" class="overlay-btn" id="sign-up">SIGN UP</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
